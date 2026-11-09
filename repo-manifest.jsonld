@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/akubera/bigdecimal-rs/commit/f0a1f920f222d9776584b26659a3c9326dd1aca1",
       "git:hexsha": "f0a1f920f222d9776584b26659a3c9326dd1aca1",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/akubera/bigdecimal-rs/commit/d48d37dfc1cdfcf85d940525b1bec8ec5b10b3c3",
