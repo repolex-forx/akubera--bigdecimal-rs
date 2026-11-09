@@ -1,0 +1,11 @@
+{
+  "org": "akubera",
+  "repo": "bigdecimal-rs",
+  "versions": [
+    {
+      "commit": "f0a1f920f222d9776584b26659a3c9326dd1aca1",
+      "tag": "",
+      "parsed_at": "2026-11-09T22:01:11.069328+00:00"
+    }
+  ]
+}
