@@ -199,6 +199,101 @@
       ],
       "ast": [
         "aggregate/ast/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "libm",
+          "ecosystem": "CARGO",
+          "version": "0.2.6",
+          "githubOrg": "rust-lang",
+          "githubRepo": "compiler-builtins",
+          "githubUrl": "https://github.com/rust-lang/compiler-builtins",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-bigint",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-bigint",
+          "githubUrl": "https://github.com/rust-num/num-bigint",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-integer",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-integer",
+          "githubUrl": "https://github.com/rust-num/num-integer",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-traits",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-traits",
+          "githubUrl": "https://github.com/rust-num/num-traits",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "paste",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "paste",
+          "githubUrl": "https://github.com/dtolnay/paste",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_test",
+          "ecosystem": "CARGO",
+          "version": "<1.0.176",
+          "githubOrg": "serde-rs",
+          "githubRepo": "test",
+          "githubUrl": "https://github.com/serde-rs/test",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "siphasher",
+          "ecosystem": "CARGO",
+          "version": "0.3.10",
+          "githubOrg": "jedisct1",
+          "githubRepo": "rust-siphash",
+          "githubCommit": "ee4dfba398346f324d5208c2398ea986fc7574b7",
+          "githubTag": "0.3.10",
+          "githubUrl": "https://github.com/jedisct1/rust-siphash",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "autocfg",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "cuviper",
+          "githubRepo": "autocfg",
+          "githubUrl": "https://github.com/cuviper/autocfg",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
