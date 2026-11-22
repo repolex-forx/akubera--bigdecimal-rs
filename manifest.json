@@ -294,7 +294,9 @@
           "githubUrl": "https://github.com/cuviper/autocfg",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f/chunk-001.nq.gz",
+      "dep": "dep/ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
