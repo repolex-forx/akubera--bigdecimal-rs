@@ -36,17 +36,26 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f
+│   │   │   └── chunk-001.nq.gz
 │   │   └── f0a1f920f222d9776584b26659a3c9326dd1aca1
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz
 │   └── repolex
+│       ├── ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f
+│       │   └── chunk-001.nq.gz
 │       └── f0a1f920f222d9776584b26659a3c9326dd1aca1
 │           └── chunk-001.nq.gz
 ├── blob
 │   ├── 06424f77794a3f458fab35fcdb13501fe58118aa.nq.gz
+│   ├── 0798a1e7b7cd91341d76c84375cec033a0b0d3a9.nq.gz
 │   ├── 097cde063033621ce052a09d34b4e08bb21cc274.nq.gz
 │   ├── 09a9e32f37fcc999b7dcaa2d69a1a8d2a743a14e.nq.gz
 │   ├── 0a165af05a4dbe81e88e12b040859fe06f00fc5b.nq.gz
+│   ├── 0e62c845be0817c35390cb5b3f59c414de1d3390.nq.gz
 │   ├── 0f71390c331efd440209eaabcb2a24ba2c4f6732.nq.gz
+│   ├── 0fd284b2f5ff95d3653fb103ac989c5097bbd2d7.nq.gz
 │   ├── 0fe1d82ab0589098018ffbe06ed705fd0533819c.nq.gz
 │   ├── 103bad0dd7db54a24b5758727c374f488a6862f8.nq.gz
 │   ├── 1269e78436c4937d18291fe00a92c27d0e1d5183.nq.gz
@@ -66,6 +75,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 3b738761c9f045cc0b3295b2627df726fe84de4c.nq.gz
 │   ├── 4037aa3f385fc58aa0326f80f10990833f042246.nq.gz
 │   ├── 4322302b48110526c03a3acb3aafebddb70eca6e.nq.gz
+│   ├── 43bfacb082e480a0810ebe5b0b70fdce3c10d8a0.nq.gz
 │   ├── 445713f62fda39d438989cd36292d04e7031bdc8.nq.gz
 │   ├── 447dc51f782af27b541b6d1c862516a258483cfe.nq.gz
 │   ├── 4497c0fe231ef8db9125019f43622b420ab1e510.nq.gz
@@ -75,6 +85,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 563c6716e1e4f31a6f6461dbef8704fdca1b67e2.nq.gz
 │   ├── 5855c84dc43aadc7fd21b0897562596ef557aec7.nq.gz
 │   ├── 5ea578dfbfc49e3b7a8676a44cf69b862ae0e169.nq.gz
+│   ├── 5f480974bd03417756ca8749ae6d0424dddd4f7c.nq.gz
 │   ├── 5f5b305f2f11ac213fa2e0bee696f4eebeb9e7ef.nq.gz
 │   ├── 5fb6e7829f5d833729afd7e3ec2299b07d7467e4.nq.gz
 │   ├── 60a7b1e46e0bbc24441e8a056321bb6a775e893e.nq.gz
@@ -84,23 +95,31 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 6d35c0d84b8806e9d3fa14cb4c40d27db07034db.nq.gz
 │   ├── 6e3d2b8d8ac051240614f5a6bc092ff7de6ca456.nq.gz
 │   ├── 6f4652cf04152f4e76defda0085809d33a7716bd.nq.gz
+│   ├── 726365726ed2389ca923701fefd0c9e6eca97c56.nq.gz
 │   ├── 775ec2a86c307ce898e10cd81395ddf7e6db1f3e.nq.gz
+│   ├── 777c158f19b9f053f04dc256811d3385b06d3f18.nq.gz
 │   ├── 78b231bc4e83615968ec9d83974d6ee4d3d8b8bc.nq.gz
 │   ├── 7eceb309fdf09204d9c3e86b6a886c4ec6d330cb.nq.gz
 │   ├── 802b94fb9d039906116024978578319c53ab0b38.nq.gz
 │   ├── 8829b7a16715692eb399ebff987b25f44ec43568.nq.gz
+│   ├── 8a96024018416bf9b7baae86d7c3b937f0e5a629.nq.gz
 │   ├── 92c483c6752d1ec037a3b8055143e632356103bd.nq.gz
 │   ├── 93f275c6b4f0e67aff5d2b621143f7a8566720c9.nq.gz
 │   ├── 93f2e78845d9a948873a111e12410cba3eb201e1.nq.gz
 │   ├── 94844937edd8f453eaafb8cf00dc0ec203d831a6.nq.gz
 │   ├── 94dd69053277971ce8df0082646d70aa0f4fa2cb.nq.gz
 │   ├── 96815a0eb5f0c39ce5706be79f46e3356f356916.nq.gz
+│   ├── 9971b0040e4b00f1cf5442a35889d9f0ed9d2f1d.nq.gz
 │   ├── 9d78cc794ee9583988981a19ff8275f340116d13.nq.gz
 │   ├── 9f9496fb4a611a668fc6c57a2b29e7c5abf7fb14.nq.gz
 │   ├── a160bc651abf72d3cdbd6ce72efc19081bceab1d.nq.gz
+│   ├── a9665dee8f2a8204d6788caf2037e429cc35593d.nq.gz
+│   ├── ac5df682272ce1a80c2eefb9de798116a8c30d37.nq.gz
+│   ├── adc462ec422e919af3ecf9ea0cab1baabc260408.nq.gz
 │   ├── b75697dcee9d5e896cbc2adf4b9ced595d135a18.nq.gz
 │   ├── baa80b5b98709a3665f0fa081338b37922b9bfe6.nq.gz
 │   ├── bca871b9821e937a8581e5fdcb955d60f7112faa.nq.gz
+│   ├── bf7136b97e96762260b950f76246f63b1ea55560.nq.gz
 │   ├── c474ac15d0f0091aebb7d201fe477943effae8c9.nq.gz
 │   ├── c54065f3666a11ff58e02019a3c7c0ca63775d6c.nq.gz
 │   ├── c5ccea6dbd4d9c519a4efc50c3d1e2815555f673.nq.gz
@@ -108,23 +127,33 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── cb2c02684575d6c5eea214ec028f4e7ec0f87af0.nq.gz
 │   ├── cd72af0f276289f28fa6e26b9666b0d01d89e6b3.nq.gz
 │   ├── cf44f3f7b9ef0c546a52c0c129e1edda9de1f39f.nq.gz
+│   ├── d2f7cd21c459fdd2a33b73ab5542fae0386ae23a.nq.gz
 │   ├── d5913401e5cc80320b4bebde1fc61cc1303d7508.nq.gz
 │   ├── d5a579fc244979f37ecdcfc584314c0504507394.nq.gz
+│   ├── da0d4ef06c56f9d7f0641effa13b52b38a79b57c.nq.gz
+│   ├── df3717efe271aba67ccedabae9f118830a73c20c.nq.gz
 │   ├── e055aff94d70da13582392803ae47792e5de43eb.nq.gz
+│   ├── e2ec1b0db74de22b1516632a9901d07cbd551539.nq.gz
 │   ├── e3b4e1d12b5cbe680b80f0b24b6ea0d4fa0e8825.nq.gz
 │   ├── e6b84b7b8bd94fd11f1046bde29ba2175db81c67.nq.gz
 │   ├── edd9aeb0c75fa71fef62aee2c7d4b7081f75173c.nq.gz
+│   ├── f15a765495011f6209e57e29dee049e35a6657b1.nq.gz
 │   ├── f6b7cc78a7b5e39a1e30f5ef571793f1cf855460.nq.gz
+│   ├── f6cc4ae97359e0e6fc39876a810d72fd4e5e537e.nq.gz
 │   ├── f7ddb259710407a8524a161f25e30953a72b05ef.nq.gz
 │   ├── f866d86a8fa4b2539166f3fefcf92d74c42143b4.nq.gz
 │   ├── fe561ca11e5f8552ebf81a4b85e072a1bad5de25.nq.gz
 │   ├── fe5a38c8339fe38d7d011817ca32c047041e4304.nq.gz
+│   ├── fe74b92d299f4b2d5de7da109b7500b54c0756bb.nq.gz
 │   └── fe9e87298b2e32ebae5bc83a00afc9d87e3cc408.nq.gz
 ├── branch
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz
 ├── filetree
+│   ├── ea0803e5dbaea8dd87d7b5d53d3fd366310a6f4f.nq.gz
 │   └── f0a1f920f222d9776584b26659a3c9326dd1aca1.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -133,7 +162,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 86 files
+17 directories, 111 files
 ```
 
 | Directory | What it contains |
@@ -154,4 +183,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [akubera/bigdecimal-rs](https://github.com/akubera/bigdecimal-rs)
 
 ---
-*Parsed on 2026-11-09 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
